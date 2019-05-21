@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //for one through one thousand
+    for (int i=1;i<=1000;i++)
+        //if it's divisable by three or five
+        if (i%3==0 || i%5==0)
+        {    //print it out
+            cout<<i;
+            cout<< " ";
+        }
+    return 0;
+}
